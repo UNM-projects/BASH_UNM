@@ -59,7 +59,7 @@ read url
 
 #Nos conectamos (linkeamos) al repositorio remoto ingresado, donde vamos a subir nuestros archivos.
 git remote remove origin
-git remote add origin url
+git remote add origin $url
 
 #Para actualizar nuestro repositorio local, respecto al remoto, se ejecutan las siguientes líneas para evitar errores a la hora de subir los archivos.
 
