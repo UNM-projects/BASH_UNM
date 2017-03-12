@@ -43,7 +43,7 @@ git status
 
 git add -A
 
-#Volvemos a ver el estado de nuestro repo local. En este punto deberíamos ver en "verde" lo que anteriormente estaba en "rojo"
+#Volvemos a ver el estado de nuestro repo local. En este punto deberíamos ver en "verde" lo que anteriormente estaba en "rojo".
 
 echo "ESTADO DEL WORKSPACE"
 git status
@@ -78,5 +78,5 @@ echo "INGRESAR USUARIO Y CONTRASEÑA DE TU CUENTA DE GitHub" #Necesario para Git
 
 git push origin master
 
-echo "CARGA TERMINADA" #Mostramos por pantalla que la carga de los archivos finalizóc License for more details.
+echo "CARGA TERMINADA" #Mostramos por pantalla que la carga de los archivos finalizó.
 
