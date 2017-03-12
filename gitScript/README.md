@@ -31,7 +31,7 @@ GitHub (Esto es algo propio de los comandos de Git, no del script creado).
 Esto es todo, al momento de ejecutarse el script arrojará por el stdout (Pantalla) algunos
 mensajes programados dentro de git_script.sh, dichos mensajes fueron puestos en mayúsculas
 para diferenciarlos de los mensajes de Git, y son una señal de que la carga se está 
-realizando con éxito. Si todo sale bien el último mensaje de pantalla debería de ser:
+realizando con éxito. Si todo sale bien el último mensaje de pantalla debería de ser :
 
 "CARGA TERMINADA"
 
