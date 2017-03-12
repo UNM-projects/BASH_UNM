@@ -23,7 +23,7 @@ Aclaración: Es muy importante ingresar bien la ruta, verificar antes de dar "En
 
 Lo próximo es ingresar la 'url' del repositorio donde vayamos a alojar nuestros archivos.
 La forma más fácil es ir a la página de GitHub donde se encuentre el repositorio remoto,
-copiar la 'url' y pegarla en la línea de comandos(Para evitar errores de tipeo).
+copiar la 'url' y pegarla en la línea de comandos (Para evitar errores de tipeo).
 
 Antes de subir los archivos, nos va a pedir Usuario y Contraseña de nuestra cuenta en
 GitHub (Esto es algo propio de los comandos de Git, no del script creado).
