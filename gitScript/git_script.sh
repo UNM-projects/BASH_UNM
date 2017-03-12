@@ -24,7 +24,7 @@
 
 #Lo primero es ingresar la ruta donde se encuentran los archivos que vamos a seguir con Git, y que luego serán cargados en nuestro repositorio remoto.
 
-tput setaf 2
+tput setaf 12
 echo -e  "\n \t INGRESE LA RUTA DONDE SE ENCUENTRAN LOS ARCHIVOS QUE SERÁN SUBIDOS AL REPOSITORIO REMOTO (ejemplo: /home/lucas/repo/LPC1769_UNM):\n"
 tput sgr0
 
@@ -38,7 +38,7 @@ git init
 
 #Vemos el estado de nuestro repositorio local, en este preciso momento.
 
-tput setaf 2
+tput setaf 12
 echo -e "\n \t ESTADO DEL WORKSPACE \n"
 tput sgr0
 
@@ -50,7 +50,7 @@ git add -A
 
 #Volvemos a ver el estado de nuestro repo local. En este punto deberíamos ver en "verde" lo que anteriormente estaba en "rojo".
 
-tput setaf 2
+tput setaf 12
 echo -e "\n \t ESTADO DEL WORKSPACE \n"
 tput sgr0
 
@@ -62,7 +62,7 @@ git commit -m "Uploaded with the script"
 
 #Creamos una variable donde guardaremos la 'url' del repositorio remoto que ingrese el usuario por stdin(teclado).
 
-tput setaf 2
+tput setaf 12
 echo -e "\n \t INGRESE LA 'URL' DEL REPOSITORIO REMOTO:\n" 
 tput sgr0
 
@@ -79,7 +79,7 @@ git merge remotes/origin/master
 
 #Vemos por pantalla si la conexión fue satisfactoria.
 
-tput setaf 2
+tput setaf 12
 echo -e "\n \t REPOSITORIO LOCAL LINKEADO CON EL SIGUIENTE REPOSITORIO REMOTO \n"
 tput sgr0
 
@@ -87,17 +87,17 @@ git remote -v
 
 #Si todo está en orden, procedemos a subir los archivos.
 
-tput setaf 2
+tput setaf 12
 echo -e "\n \t SUBIENDO ARCHIVOS AL REPOSITORIO REMOTO \n" #Mostramos por pantalla que la carga de los archivos se inició.
 tput sgr0
 
-tput setaf 2
+tput setaf 12
 echo -e "\n \t INGRESAR USUARIO Y CONTRASEÑA DE TU CUENTA DE GitHub \n" #Necesario para Git.
 tput sgr0
 
 git push origin master
 
-tput setaf 2
+tput setaf 12
 echo -e "\n \t CARGA TERMINADA \n" #Mostramos por pantalla que la carga de los archivos finalizó.
 tput sgr0
 
