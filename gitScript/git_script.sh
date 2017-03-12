@@ -59,9 +59,9 @@ git add -A
 
 tput setaf 12
 echo ""
-echo "**********************************"
+echo "********************************"
 echo -e "\n \t ESTADO DEL WORKSPACE \n"
-echo "**********************************"
+echo "********************************"
 tput sgr0
 
 git status
@@ -105,24 +105,24 @@ git remote -v
 
 tput setaf 12
 echo ""
-echo "****************************************************"
+echo "****************************************************************************"
 echo -e "\n \t SUBIENDO ARCHIVOS AL REPOSITORIO REMOTO \n" #Mostramos por pantalla que la carga de los archivos se inició.
-echo "****************************************************"
+echo "****************************************************************************"
 tput sgr0
 
 tput setaf 12
 echo ""
-echo "*****************************************************************"
+echo "****************************************************************************"
 echo -e "\n \t INGRESAR USUARIO Y CONTRASEÑA DE TU CUENTA DE GitHub \n" #Necesario para Git.
-echo "*****************************************************************"
+echo "****************************************************************************"
 tput sgr0
 
 git push origin master
 
 tput setaf 12
 echo ""
-echo "***************************"
+echo "****************************************************************************"
 echo -e "\n \t CARGA TERMINADA \n" #Mostramos por pantalla que la carga de los archivos finalizó.
-echo "***************************"
+echo "****************************************************************************"
 tput sgr0
 
